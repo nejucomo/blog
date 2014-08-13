@@ -14,12 +14,12 @@ then
     source "$VENV/bin/activate"
 
     echo '=== Installing/updating dependencies ==='
-    "$VENV/bin/pip" install --requirement "$REPOROOT/config/pip-requirement.txt"
+    "$VENV/bin/pip" install --requirement "$REPOROOT/settings/pip-requirement.txt"
 fi
 
 echo '=== Generating site ==='
 exec "$VENV/bin/pelican" \
-    --settings "$REPOROOT/config/pelicanconf.py" \
+    --settings "$REPOROOT/settings/pelicanconf.py" \
     --output "$REPOROOT/build/output" \
     --cache-path "$REPOROOT/build/cache" \
     --delete-output-directory \
