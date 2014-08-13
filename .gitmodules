@@ -1,0 +1,3 @@
+[submodule "content/js/flot"]
+	path = content/js/flot
+	url = https://github.com/flot/flot.git
