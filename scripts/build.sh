@@ -18,9 +18,10 @@ then
 fi
 
 echo '=== Generating site ==='
-"$VENV/bin/pelican" \
+exec "$VENV/bin/pelican" \
     --settings "$REPOROOT/config/pelicanconf.py" \
     --output "$REPOROOT/build/output" \
     --cache-path "$REPOROOT/build/cache" \
     --delete-output-directory \
+    "$@" \
     "$REPOROOT/content"
