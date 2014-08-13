@@ -9,6 +9,7 @@ SITEURL = ''
 PATH = 'content'
 
 STATIC_PATHS = ['images', 'js']
+FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})_(?P<slug>.*)'
 
 TIMEZONE = 'Europe/Paris'
 
