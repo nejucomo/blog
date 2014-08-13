@@ -1,8 +1,4 @@
 *.pyc
 
-# virtualenv:
-venv/
-
-# pelican:
-output/
-cache/
+# All generated files live here:
+build/
