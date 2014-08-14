@@ -2,7 +2,7 @@
 
 .. raw:: html
 
-	<script language="javascript" type="text/javascript" src="./js/monetary-base-growth-btc-vs-eth.js"></script>
+    <script language="javascript" type="text/javascript" src="./js/monetary-base-growth-btc-vs-eth.js"></script>
 
 
 Here are some plots for comparing the monetary policies of Bitcoin versus Ethereum.  I created the datasets for these from scratch, based on ``FIXME: add references``.  They are approximated to years after launch, whereas a block-count on the X-axes would be more precise.  For Ethereum, I use ``𝑥`` as the total number of `ETH` allocated in the genesis block.  ``FIXME: double check 𝑥 and reward rate are correct.``
