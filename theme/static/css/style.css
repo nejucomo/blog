@@ -1,5 +1,5 @@
 body {
-    font-family : monospace ;
+    font-family : serif ;
     font-size : 100% ;
     background-color : white ;
     color : #111 ;
@@ -36,3 +36,12 @@ pre {
     margin-bottom : 1em ;
     margin-top : 1em ;
 }
+
+.footer {
+	margin-top: 25px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 12px;
+	color: #999;
+}
+

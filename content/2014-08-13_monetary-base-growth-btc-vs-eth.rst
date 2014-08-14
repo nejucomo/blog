@@ -90,7 +90,6 @@ Long Term Growth Ratio
 
 The 4 to 100 year ratio of growth rates:
 
-
 .. raw:: html
 
     <div style="text-align: center">
@@ -106,6 +105,3 @@ Here's the same plot at log scale:
       Growth Rate - Years 4 to 100 (Log Scale)
       <div id="div-plot_monetary-base-btc-vs-eth-growth-rate-ratio-long-term-log-scale" style="width: 100%; height: 400px"></div>
     </div>
-
-
-
