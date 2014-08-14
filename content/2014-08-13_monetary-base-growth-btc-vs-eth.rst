@@ -2,10 +2,6 @@
 
 .. raw:: html
 
-	<script language="javascript" type="text/javascript" src="./js/flot/jquery.js"></script>
-	<script language="javascript" type="text/javascript" src="./js/flot/jquery.flot.js"></script>
-	<script language="javascript" type="text/javascript" src="./js/flot/jquery.flot.crosshair.js"></script>
-	<script language="javascript" type="text/javascript" src="./js/flot-axislabels/jquery.flot.axislabels.js"></script>
 	<script language="javascript" type="text/javascript" src="./js/monetary-base-growth-btc-vs-eth.js"></script>
 
 
