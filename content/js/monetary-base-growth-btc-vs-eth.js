@@ -22,9 +22,11 @@ $(function () {
         },
       ],
       {
-        xaxis: {
+        xaxisLabels: { show: true },
+        xaxes: [{
+          axisLabel: 'Year after launch',
           ticks: 12,
-        },
+        }],
         yaxes: [
           {
             min: 0.1,
