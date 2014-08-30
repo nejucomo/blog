@@ -37,6 +37,11 @@ pre {
     margin-top : 1em ;
 }
 
+.sitetitle {
+    font-family: monospace;
+    font-variant: small-caps;
+}
+
 .footer {
 	margin-top: 25px;
 	margin-bottom: 10px;
