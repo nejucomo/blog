@@ -36,7 +36,7 @@ $(function () {
           data: gen_dataset(0, YEARS, 1, btc_reward),
         },
         {
-          label: '𝑥⋅ETH reward',
+          label: 'x⋅ETH reward',
           yaxis: 2,
           data: gen_dataset(0, YEARS, 1, function (y) { return XETH_PER_YEAR }),
         },
@@ -60,7 +60,7 @@ $(function () {
             tickDecimals: 2,
             position: 'right',
             alignTicksWithAxis: 'right',
-            tickFormatter: units_formatter('⋅𝑥 ETH'),
+            tickFormatter: units_formatter('⋅x ETH'),
           }
         ],
         lines: { show: true },
@@ -78,7 +78,7 @@ $(function () {
           data: btc_mbase,
         },
         {
-          label: '𝑥⋅ETH',
+          label: 'x⋅ETH',
           yaxis: 2,
           data: gen_dataset(
             0, YEARS, 1,
@@ -103,7 +103,7 @@ $(function () {
             min: 0,
             position: 'right',
             alignTicksWithAxis: 'right',
-            tickFormatter: units_formatter('⋅𝑥 ETH'),
+            tickFormatter: units_formatter('⋅x ETH'),
           }
         ],
         lines: { show: true },

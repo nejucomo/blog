@@ -7,7 +7,7 @@
     <script language="javascript" type="text/javascript" src="./js/monetary-base-growth-btc-vs-eth.js"></script>
 
 
-Here are some plots for comparing the monetary policies of Bitcoin versus Ethereum.  I created the datasets for these from scratch, based on ``FIXME: add references``.  They are approximated to years after launch, whereas a block-count on the X-axes would be more precise.  For Ethereum, I use ``𝑥`` as the total number of `ETH` allocated in the genesis block.  ``FIXME: double check 𝑥 and reward rate are correct.``
+Here are some plots for comparing the monetary policies of Bitcoin versus Ethereum.  I created the datasets for these from scratch, based on ``FIXME: add references``.  They are approximated to years after launch, whereas a block-count on the X-axes would be more precise.  For Ethereum, I use ``x`` as the total number of `ETH` allocated in the genesis block.  ``FIXME: double check x and reward rate are correct.``
 
 **Caveat Emptor:**  It's quite possible I've made mistakes or errors.  Do not rely on this data without careful verification on your own.
 
@@ -55,7 +55,7 @@ Here's where the comparison gets interesting.  If we divide the monetary base by
       <div id="div-plot_monetary-base-btc-vs-eth-growth-rate" style="width: 100%; height: 400px"></div>
     </div>
 
-**Note:** Bitcoin starts at 0 BTC in its genesis block, so the percentage growth at year 1 is infinite and is excluded.  By contrast, Ethereum starts with an initial allocation of ``𝑥 ETH``.
+**Note:** Bitcoin starts at 0 BTC in its genesis block, so the percentage growth at year 1 is infinite and is excluded.  By contrast, Ethereum starts with an initial allocation of ``x ETH``.
 
 Long Term Growth Rate
 ---------------------
