@@ -1,4 +1,6 @@
 :title: Monetary Base Growth: BTC vs ETH
+:tags: Monetary Policy, Ethereum, Bitcoin
+
 
 .. raw:: html
 
