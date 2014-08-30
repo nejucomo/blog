@@ -40,6 +40,17 @@
         {% endfor %}
     </address>
     {% endif %}
+    {% if article.tags %}
+    <div class="tags">
+      <small>
+        Tags:
+        {% for tag in article.tags %}
+        <a href="/tag/{{ tag|lower|replace(' ', '-') }}.html">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+        {% endfor %}
+      </small>
+    </div>
+    {% endif %}
+
   </footer><!-- /.post-info -->
   <div class="entry-content">
     {{ article.content }}
