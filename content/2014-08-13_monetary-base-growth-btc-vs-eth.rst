@@ -1,6 +1,7 @@
 :title: Monetary Base Growth: BTC vs ETH
 :tags: Monetary Policy, Ethereum, Bitcoin
 
+.. FIXME - select and use consistent markup for different syntactic categories such as currency unit names, variables, etc...
 
 .. raw:: html
 
