@@ -31,7 +31,7 @@ In both systems, the change in total monetary base comes exclusively from "block
       <div id="div-plot_monetary-base-btc-vs-eth-mining-reward" style="width: 100%; height: 200px"></div>
     </div>
 
-**Note:** These two data sets have distinct units, so the cross-over around year 16 is a plotting artifact without significance.  ``FIXME: What's a better term than "data set"?``
+**Note:** These two data sets have distinct units, so the cross-over around year 16 is a plotting artifact without significance.
 
 Monetary Base
 =============
