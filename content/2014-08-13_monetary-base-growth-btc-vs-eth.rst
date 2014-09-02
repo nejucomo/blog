@@ -7,7 +7,7 @@
     <script language="javascript" type="text/javascript" src="./js/monetary-base-growth-btc-vs-eth.js"></script>
 
 
-Here are some plots for comparing the monetary policies of Bitcoin versus Ethereum.  I created the datasets for these from scratch, based on the `Bitcoin wiki`_ pages on `Mining Reward`_ and `Controlled Currency Supply`_ [#]_, for `BTC` and the Ethereum `Terms and Conditions of The Ethereum Genesis Sale`_ §4 for `ETH`.  They are approximated to years after launch, whereas a block-count on the X-axes would be more precise.  For Ethereum, I use ``x`` as the total number of `ETH` allocated in the genesis block.  ``FIXME: double check x and reward rate are correct.``
+Here are some plots for comparing the monetary policies of Bitcoin versus Ethereum.  I created the datasets for these from scratch, based on the `Bitcoin wiki`_ pages on `Mining Reward`_ and `Controlled Currency Supply`_ [#]_, for `BTC` and the Ethereum `Terms and Conditions of The Ethereum Genesis Sale`_ §4 for `ETH`.  They are approximated to years after launch, whereas a block-count on the X-axes would be more precise.  For Ethereum, I use ``x`` as the total number of `ETH` allocated in the genesis block.
 
 .. [#] This page uses the approximation that `BTC` reward halving is on a 4 year schedule, rather than every 210,000 blocks.  The schedule of block creation may vary notably from 4 years per 210,000 blocks.
 
@@ -22,7 +22,7 @@ Here are some plots for comparing the monetary policies of Bitcoin versus Ethere
 Block Rewards
 =============
 
-In both systems, the change in total monetary base comes exclusively from "block rewards" where the miner which solves a constraint receives a given number of new currency units.  Bitcoin has a policy of halving the reward every four years until it reaches 0 due to rounding error.  ``FIXME: Correct?``  Ethereum has a policy of a fixed reward into perpetuity:
+In both systems, the change in total monetary base comes exclusively from "block rewards" where the miner which solves a constraint receives a given number of new currency units.  Bitcoin has a policy of halving the reward (roughly) every four years until it reaches 0 due to rounding error.  Ethereum has a policy of a fixed reward into perpetuity:
 
 .. raw:: html
 
