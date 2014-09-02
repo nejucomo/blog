@@ -1,7 +1,9 @@
-:title: Monetary Base Growth: BTC vs ETH
+:title: Monetary Base Growth: `BTC` vs `ETH`
 :tags: Monetary Policy, Ethereum, Bitcoin
 
-.. FIXME - select and use consistent markup for different syntactic categories such as currency unit names, variables, etc...
+.. Editing note - markup style:
+.. - Use single-backtick for currency units
+.. - Use double-backtick for formulae & variables
 
 .. raw:: html
 
@@ -39,7 +41,7 @@ Monetary Base
 
 I use the term `monetary base` to refer to the number of currency units allocated by the protocol.  Note that this is distinct from `money supply` in that the latter refers to the availability of funds for actors in the system, and that availability is affected by lost private keys, transfers to nonexistent addresses, low exchange liquidity, and other factors.
 
-Given that both systems have a monetary policy where the only change in the monetary base is by block rewards, then in Bitcoin the long term monetary base converges to a fixed amount, ``21,000,000 BTC``, whereas in Ethereum it grows perpetually.  Here's what this looks like for the first 24 years after launch:
+Given that both systems have a monetary policy where the only change in the monetary base is by block rewards, then in Bitcoin the long term monetary base converges to a fixed amount, 21,000,000 `BTC`, whereas in Ethereum it grows perpetually.  Here's what this looks like for the first 24 years after launch:
 
 .. raw:: html
 
@@ -64,7 +66,7 @@ Here's where the comparison gets interesting.  If we divide the monetary base by
       <div id="div-plot_monetary-base-btc-vs-eth-growth-rate" style="width: 100%; height: 400px"></div>
     </div>
 
-**Note:** Bitcoin starts at 0 BTC in its genesis block, so the percentage growth at year 1 is infinite and is excluded.  By contrast, Ethereum starts with an initial allocation of ``x ETH``.
+**Note:** Bitcoin starts at 0 `BTC` in its genesis block, so the percentage growth at year 1 is infinite and is excluded.  By contrast, Ethereum starts with an initial allocation of ``x`` `ETH`.
 
 Long Term Growth Rate
 ---------------------
