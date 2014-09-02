@@ -7,7 +7,7 @@ $(function () {
   var YEARS_LONG = 140
   var BTC_BLOCKS_PER_YEAR = 52500
   var XETH_INITIAL = 1.0
-  var XETH_PER_YEAR = 0.27
+  var XETH_PER_YEAR = 0.26
 
   var btc_mbase = gen_dataset(
     0, YEARS, 1,
@@ -56,7 +56,7 @@ $(function () {
             tickFormatter: units_formatter(' BTC'),
           },
           {
-            ticks: [0.27],
+            ticks: [XETH_PER_YEAR],
             tickDecimals: 2,
             position: 'right',
             alignTicksWithAxis: 'right',
