@@ -7,7 +7,15 @@
     <script language="javascript" type="text/javascript" src="./js/monetary-base-growth-btc-vs-eth.js"></script>
 
 
-Here are some plots for comparing the monetary policies of Bitcoin versus Ethereum.  I created the datasets for these from scratch, based on ``FIXME: add references``.  They are approximated to years after launch, whereas a block-count on the X-axes would be more precise.  For Ethereum, I use ``x`` as the total number of `ETH` allocated in the genesis block.  ``FIXME: double check x and reward rate are correct.``
+Here are some plots for comparing the monetary policies of Bitcoin versus Ethereum.  I created the datasets for these from scratch, based on the `Bitcoin wiki`_ pages on `Mining Reward`_ and `Controlled Currency Supply`_ [#]_, for `BTC` and the Ethereum `Terms and Conditions of The Ethereum Genesis Sale`_ §4 for `ETH`.  They are approximated to years after launch, whereas a block-count on the X-axes would be more precise.  For Ethereum, I use ``x`` as the total number of `ETH` allocated in the genesis block.  ``FIXME: double check x and reward rate are correct.``
+
+.. [#] This page uses the approximation that `BTC` reward halving is on a 4 year schedule, rather than every 210,000 blocks.  The schedule of block creation may vary notably from 4 years per 210,000 blocks.
+
+.. _`Bitcoin wiki`: https://en.bitcoin.it/wiki/Main_Page
+.. _`Mining Reward`: https://en.bitcoin.it/wiki/Mining#Reward
+.. _`Controlled Currency Supply`: https://en.bitcoin.it/wiki/Controlled_Currency_Supply
+.. _`Terms and Conditions of The Ethereum Genesis Sale`: https://www.ethereum.org/pdfs/TermsAndConditionsOfTheEthereumGenesisSale.pdf
+
 
 **Caveat Emptor:**  It's quite possible I've made mistakes or errors.  Do not rely on this data without careful verification on your own.
 
