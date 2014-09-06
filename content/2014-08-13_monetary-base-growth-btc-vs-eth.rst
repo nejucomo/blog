@@ -1,5 +1,6 @@
 :title: Monetary Base Growth: `BTC` vs `ETH`
 :tags: Monetary Policy, Ethereum, Bitcoin
+:modified: 2014-09-06
 
 .. Editing note - markup style:
 .. - Use single-backtick for currency units
