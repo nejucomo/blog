@@ -19,6 +19,11 @@ These are about the perpetual "next generation" of decentralized consensus:
 * "Physical Decentralization - Towards a Currency for the Universal Earthling Diaspora"
 * "Taming the Tyrant - Can a Centralized Transaction Ledger Decentralize Power?"
 
+    - "Decentralization" is really just a design strategy for a different property: We want to prevent a given party from *persistently controlling* transactions between any other two parties (unless those other two parties opt-in).
+    - Call this "bilateral transaction independence" or find a more standard name.
+    - Therefore, imagine a new system where the Glorious Leader of North Korea operates a centralized ledger *but* we still achieve bilateral transaction independence.  Is this possible?
+    - Assume the Tyrant is motivated by a financial reward inherent in the system and also *wants* to interfere with the transactions between particular parties or particular types of transaction.
+
 Ethereum
 --------
 
