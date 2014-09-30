@@ -1,0 +1,12 @@
+Source: cryptoconsensus-blog
+Maintainer: nejucomo <nejucomo@gmail.com>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9)
+
+Package: cryptoconsensus-blog
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Cryptoconsensus blog contents.
+ Includes the blog contents and web server configuration.

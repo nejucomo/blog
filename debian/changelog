@@ -1,0 +1,5 @@
+cryptoconsensus-blog (0.1) UNRELEASED; urgency=medium
+
+  * Initial experimentation with debian packaged blog contents.
+
+ -- nejucomo <nejucomo@gmail.com>  Tue, 30 Sep 2014 06:11:49 -0700
